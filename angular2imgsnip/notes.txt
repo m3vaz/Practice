@@ -1,0 +1,8 @@
+1. Unpack into folder
+2. Install dependencies with 'npm install'
+3. To start the server you run 'npm start'
+4. The server is listening on port 3000
+5. Make a GET request to the server root (i.e. if you're running locally "localhost:3000")
+6. It is possible to move the image into a position that it will block buttons. 
+7. The spec implied that each of the four actions was a one time use, I changed it so that any of the actions can be applied any number of times ("more fun").
+8. I have no idea what the verb of "to make opaque" is.

@@ -1,0 +1,8 @@
+1. Unpack into folder
+2. Install dependencies with 'npm install'
+3. To start the server you can either run 'npm start' or 'node server.js'
+4. The server is listening on port 8000
+5. Make a GET request to the server root (i.e. if you're running locally "localhost:8000")
+6. The weather middleware is sandwidched between two other middlewares whose sole purpose is to demonstrate the isolation of the weather middleware. 
+7. Console logging will trace the call down and up. The last generator is responsible for generating html based on the location and weather data. 
+8. If you try to run and access the server locally it will fail the location lookup (since the source ip is localhost)
