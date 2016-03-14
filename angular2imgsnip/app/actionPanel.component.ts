@@ -10,7 +10,7 @@ import {imgState, imgStateService} from './imgState';
 	<li><input type="number" [(ngModel)]="transX" /><input type="button" (click)=transXClick() value="Translate X!" /></li>\
 	<li><input type="number" [(ngModel)]="transY" /><input type="button" (click)=transYClick() value="Translate Y!" /></li>\
 	<li><input type="range" [(ngModel)]="scale" min="0.5" max="1.5" step="0.1"/><input type="button" (click)=scaleClick() value="Scale!" /></li>\
-	<li><input type="range" [(ngModel)]="opacity" min="0" max="1" step="0.1"/><input type="button" (click)=opaClick() value="Opacitate(?)!" /></li>\
+	<li><input type="range" [(ngModel)]="opacity" min="0" max="1" step="0.1"/><input type="button" (click)=opaClick() value="Opacify!" /></li>\
 	</ul> \
 	</div>	\
 	<div style="float:left;"> <ul style="list-style:none;">\
